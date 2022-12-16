@@ -1,3 +1,7 @@
+mod sum;
+mod traffic_light;
+mod calc_area;
+
 fn main() {
     let mut list = vec![1, 4, 3, 7, 2];
     bubble_sort(&mut list);
